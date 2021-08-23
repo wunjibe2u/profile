@@ -41,7 +41,7 @@ a:hover {
     z-index: -500000;
     width: 100vw;
     height: 100vh;
-    background-image: url(./assets/images/px-bg.jpg);
+    background-image: url(https://taekinotaking.github.io/profile/assets/images/px-bg.jpg);
 }
 
 /*----------------*/
@@ -88,7 +88,7 @@ a:hover {
     position:relative;
     width: 100vw;
     height: 900px;
-    background-image: url("./assets/images/header.png");
+    background-image: url("https://taekinotaking.github.io/profile/assets/images/header.png");
 }
 
 /*----------------*/
@@ -308,13 +308,13 @@ img {
     background-color: rgb(143, 184, 245);
 }
 .sub1{
-    background-image: url(./assets/images/portfolio-img01.jpg);
+    background-image: url(https://taekinotaking.github.io/profile/assets/images/portfolio-img01.jpg);
 }
 .sub2{
-    background-image: url(./assets/images/portfolio-img04.jpg);
+    background-image: url(https://taekinotaking.github.io/profile/assets/images/portfolio-img04.jpg);
 }
 .sub3{
-    background-image: url(./assets/images/portfolio-img05.jpg);
+    background-image: url(https://taekinotaking.github.io/profile/assets/images/portfolio-img05.jpg);
 }
 .sub-blog:hover .nav-blog{
     display: block;
