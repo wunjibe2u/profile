@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    scroll-behavior: smooth;
+}
+body {
+    font-weight: 250px;
+    line-height: 30px;
+    font-size: 14px;
+    color: rgb(152, 152, 152); 
+}
+
+h2{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 600; 
+    color:rgb(39, 162, 233);
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none; 
+}
+#home{
+    position: relative;
+}
+  
+a:hover {
+    text-decoration: none; 
+}
+
+/*----------------*/
+
+#background-page{
+    position: fixed;
+    z-index: -500000;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/images/px-bg.jpg);
+}
+
+/*----------------*/
+
+#header{
+    background-color: rgb(11, 12, 19);
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    padding-top: 10px;
+    display: block;
+}
+
+#header .container-header{
+    display: flex;
+    padding: 0 15px;
+    margin: auto 10%;
+    height: 100%;
+    justify-content: space-between;
+}
+.logo-header{
+    margin: auto 48px;
+    height: 100%;
+}
+.header-nav li{
+    line-height: 60px;
+    display: inline-block;
+}
+.header-nav li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 250;
+    text-transform: uppercase;
+    padding: 0 24px;
+}
+.header-nav li:hover a{
+    line-height: 18px;
+    color: rgb(143, 184, 245);
+}
+
+/*----------------*/
+
+#background-header{
+    position:relative;
+    width: 100vw;
+    height: 900px;
+    background-image: url("/assets/images/header.png");
+}
+
+/*----------------*/
+
+#text-header{
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    margin-top: 400px;
+}
+#text-header .h1-header{
+    font-size: 50px;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+}
+#text-header h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 50;
+    letter-spacing: 7px;
+    color:white;
+    margin-bottom: 50px;
+}
+.buttom{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 450;
+    background-color: rgb(39, 162, 233);
+    padding: 15px 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.hover1:hover{
+    background-color: rgb(143, 184, 245);
+}
+.hover2:hover{
+    background-color: rgb(143, 184, 245);
+}
+
+/*----------------*/
+
+#about{
+    height: 750px;
+    position:relative;
+    font-size:13px;
+    display: flex;
+    padding: 150px 0;
+    background-color: rgb(7, 9, 16);
+}
+#about .row-1 .hover1{
+    position: absolute;
+    margin-top: 50px;
+    padding: 10px 50px;
+}
+p{
+    margin-top: 10px;
+}
+.first-p{
+    font-style: italic;
+    font-weight: bolder;
+}
+.row-2{
+    margin-right: 200px;
+}
+.row-1{
+    padding: 0 50px;
+    margin-left: 150px;
+}
+img {
+    border-radius: 16px;
+}
+.row-2 img{
+    width: 500px;
+}
+
+/*----------------*/
+
+#ach{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    height: 700px;
+    background-color: rgb(27, 28, 33);
+    padding: 150px 150px;
+}
+#ach .name-ach{
+    flex: 1;
+    margin-right: 30px;
+}
+#ach .name-ach h2{
+    font-size: 30px;
+}
+#ach .container-row-ach{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+#ach h4{
+    font-size: 20px;
+    color:white;
+}
+.row-ach{
+    margin: 20px;
+}
+.row-ach p{
+    font-size: 12px;
+}
+.pe{
+    font-size: 50px;
+}
+.icon-row{
+    font-size: 40px;
+    color: rgb(39, 162, 233);
+    margin-bottom: 30px;
+}
+#number-count{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 250px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 100px 200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#number-count .num-count{
+    padding: 0 50px;
+}
+.num-count h3{
+    color: white;
+    font-size: 50px;
+}
+.num-count p{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/*----------------*/
+
+#main-blog{
+    position:relative;
+    height: 700px;
+    width: 100vw;
+    background-color: rgba(31, 32, 37);
+    padding: 100px 100px;
+}
+#main-blog h2{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.blog{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog .sub-blog{
+    position:relative;
+    width: 380px;
+    height: 350px;
+    border-radius: 16px;
+}
+.blog .hover-background{
+    position:absolute;
+    z-index: 0;
+    top: 20px;
+    left: 20px;
+    width: 340px;
+    height: 310px;
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 16px;
+}
+.blog-content{
+    position: relative;
+    z-index: 5;
+}
+.blog h4{
+    font-size:40px;
+    padding: 60px 20px;
+    padding-bottom: 30px;
+    color:white;
+    text-align: center;
+}
+.blog p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.nav-blog{
+    display: none;
+}
+.sub-blog a{
+    position: relative;
+    z-index: 5;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 450;
+    background-color: rgb(39, 162, 233);
+    margin-left: 125px;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.sub-blog a:hover{
+    background-color: rgb(143, 184, 245);
+}
+.sub1{
+    background-image: url(/assets/images/portfolio-img01.jpg);
+}
+.sub2{
+    background-image: url(/assets/images/portfolio-img04.jpg);
+}
+.sub3{
+    background-image: url(/assets/images/portfolio-img05.jpg);
+}
+.sub-blog:hover .nav-blog{
+    display: block;
+}
+#main-blog > p{
+    font-size: 30px;
+    color:white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*----------------*/
+
+#contact-container{
+    position:relative;
+    height: 800px;
+    width: 100vw;
+    background-color: rgb(28, 29, 34);
+    padding: 100px 200px;
+}
+.ar-contact{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ar-contact p{
+    font-style: italic;
+    font-weight: bolder;
+}
+.form-row1{
+    display: flex;
+    justify-content: space-between;
+}
+.form-row1 input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:white;
+    flex-basis: 45%;
+    margin: 0 30px;
+    padding: 12px 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none none solid  none;
+    border-width: 2px;
+    border-color: rgb(39, 162, 233);
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+}
+.contact-text textarea{
+    margin-top: 50px;
+    padding: 12px 16px;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none none solid  none;
+    border-width: 2px;
+    border-color: rgb(39, 162, 233);
+    margin-bottom: 50px;
+}
+.contact-text button{
+    border:none;
+    width: 150px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 450;
+    background-color: rgb(39, 162, 233);
+    padding: 15px 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-text button:hover{
+    background-color: rgb(143, 184, 245);
+}
+/*---------------------*/
+#footer{
+    position:relative;
+    height: 200px;
+    width: 100vw;
+    background-color: rgba(23, 22, 28);
+    padding: 50px 100px;
+}
+.footer-text{
+    flex: 1;
+}
+.contact-footer{
+    display: flex;
+}
+.footer-text h3{
+    font-size: 25px;
+    color:white;
+    font-weight: 500;
+}
+.footer-text p{
+    font-weight: 250;
+    color:white;
+}
+.end-web{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(39, 162, 233);
+}
+/*----- */
+#end-web{
+    background-color: rgb(39, 162, 233);
+    text-align: center;
+    color: white;
+}
